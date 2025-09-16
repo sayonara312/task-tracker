@@ -1,0 +1,21 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "https://roadmap.sh/projects/task-tracker",
+  "main": "task-cli.js",
+  "bin": {
+    "task-tracker": "cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "fs": "^0.0.1-security"
+  }
+}
